@@ -5,9 +5,41 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-	
+	body{
+		margin: 0;
+		font-family: Arial, Helvetica, sans-serif;	
+	}
+	.topnav{
+		overflow: hidden;
+		background-color: #333;
+	}
+
+	.topnav a{
+		float: left;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+
+	.topnav a:hover {
+		background-color: #ddd;
+		color: black;
+	}
+
+	.topnav a.active {
+		background-color: #04aa6d;
+		color: white;
+	}
 </style>
 <body>
+	<div class="topnav">
+		<a class="active" href="#home">Home</a>
+		<a href="#projects">Projects</a>
+		<a href="#contact">Contact</a>
+	</div>
+
 	<div class="w3-container w3-center w3-black">
 		<h1>John Clune III</h1>
 		<p>Software Engineer & Innovator</p>
